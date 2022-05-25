@@ -1,0 +1,33 @@
+name: build site
+on:
+  push:
+    branches:
+      - main
+jobs:
+  contributors:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+
+      - name: setup
+        run: |
+          pip3 install --user wheel mkdocs mkdocs-material python-markdown-math
+
+      - name: build
+        run: |
+          mkdir -p docs
+          cp *.png docs
+          cp *.svg docs
+          cp README.md docs/index.md
+          python3 -m mkdocs build
+          ls site/
+
+      - name: deploy
+        uses: JamesIves/github-pages-deploy-action@4.0.0
+        with:
+          branch: gh-pages
+          folder: site
