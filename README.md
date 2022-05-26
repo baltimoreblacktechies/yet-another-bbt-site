@@ -14,4 +14,4 @@ Feel free to contribute to any of our projects and connect with us on our social
 [![Join the slack channel](https://img.shields.io/badge/slack-Baltimore%20Black%20Techies-orange.svg?logo=slack)](http://bit.ly/3r4lPQm)
 [![Follow our twitter](https://img.shields.io/badge/twitter-BmoreBlackTech-blue.svg?logo=twitter)](BmoreBlackTech)
 [![Connect on Linkedin](https://img.shields.io/badge/linkedin-BmoreBlackTech-teal.svg?logo=linkedin)](https://www.linkedin.com/groups/9020867/)
-[![Follow on Github](https://img.shields.io/badge/linkedin-BaltimoreBlackTechies-black.svg?logo=github)](https://github.com/baltimoreblacktechies/)
+[![Follow on Github](https://img.shields.io/badge/github-BaltimoreBlackTechies-black.svg?logo=github)](https://github.com/baltimoreblacktechies/)
